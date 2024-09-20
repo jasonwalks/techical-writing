@@ -1,5 +1,7 @@
-# Common Coding Force of Habit Checker
-In coding, certain syntaxes are deemed correct but wrong in English writing. <br>
-For example, "12ms" with not space between 12 and ms is correct but wrong in English writing. <br>
-It is uncommon for engineers to produce the above mistakes. <br>
-12ms checker identifies the regex pattern: "\d+[a-zA-Z]" in specified document to spot such common errors. <br>
+# What is 12msCheck.py
+A python program that checks for reg pattern `\d+[a-zA-Z]` in a .docx file.
+
+# Why is this helpful
+A pattern like "12ms" is correct in coding but wrong in English writing. <br>
+Developers are prone to make such mistakes due to force of habit. <br>
+A python program helps technical writers quickly identify such force of habit problem in documents. <br>

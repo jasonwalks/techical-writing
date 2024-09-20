@@ -28,7 +28,7 @@ pip install python-docx
 2. Put all the .docx files that need to be checked for "12ms" type of erros. 
 ## Run 12mscheck.py from the command line. 
 1. Put `12msCheck.py` in the `12mscheck` folder.
-2. Open terminal navigate to `12mscheck`.
+2. Open a terminal or command prompt and navigate to `12mscheck`.
 3. Run `12msCheck.py`: <br>
 `python3 12msCheck.py`
 

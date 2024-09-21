@@ -1,5 +1,5 @@
 # What is 12msChecker.py
-A python program that checks for reg pattern `\d+[a-zA-Z]` in all .docx files in the folder `12mscheck` inside the Downloads folder.
+A python program that checks for reg pattern `\d+[a-zA-Z]` (12ms, 5kg, 34mnm, etc.) in all .docx files in the folder `12mscheck` inside the Downloads folder.
 
 # Why is this helpful
 - "12ms" with no space between is correct in coding but wrong in English writing. <br>

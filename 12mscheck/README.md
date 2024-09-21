@@ -3,8 +3,8 @@ A python program that checks for reg pattern `\d+[a-zA-Z]` (12ms, 5kg, 34mnm, et
 
 # Why is this helpful
 - "12ms" with no space between is correct in coding but wrong in English writing. <br>
-- These mistakes are often created through sheer force of habit. <br>
-- `12msChecker.py` identifies such error in .docx files. <br>
+- Engineers often creat these mistakes through sheer force of habit. <br>
+- `12msChecker.py` identifies such errors in .docx files. <br>
 
 # Preparations
 ## Install Python (version 3.x)

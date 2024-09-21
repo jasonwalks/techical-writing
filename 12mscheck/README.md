@@ -15,10 +15,12 @@ A python program that checks for reg pattern `\d+[a-zA-Z]` (12ms, 5kg, 34mnm, et
   - Most Linux distributions come with python pre-installed. Check by running: `python3 --version`
 ## Install the `python-docx` library using 'pip'
 ### Install pip (package manager for Python)
-- Windows & macOS
-  - Open a terminal or command prompt: <br>
-    1. `curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py` <br>
-    2. `python3 get-pip.py` <br>
+- Windows & macOS <br>
+Open a terminal or command prompt and run the following commands: <br>
+```
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python3 get-pip.py
+```
 ### Install `python-docx` library: <br>
 ```
 pip install python-docx
@@ -26,14 +28,30 @@ pip install python-docx
 ## Create a directory for storing .docx files to be checked.
 1. Create a folder named `12mscheck` under Downloads.
 2. Put all the .docx files that need to be checked for "12ms" type of erros. 
-## Run 12mscheck.py from the command line. 
+## Run `12msChecker.py` from the command line. 
 1. Put `12msChecker.py` in the `12mscheck` folder.
-2. Open a terminal or command prompt and navigate to `12mscheck`.
-3. Run `12msChecker.py`: <br>
-`python3 12msChecker.py`
+2. Open a terminal or command prompt and navigate to `12mscheck`:
+```
+cd ~/Downloads/12mscheck/
+```
+4. Run `12msChecker.py`: <br>
+```
+python3 12msChecker.py
+```
+6. If successful, `12msChecker.py` should produce results similar to the folloing: <br>
+```
+File: demo.docx
+  Found matches: ['12ms', '6ms']
+
+File: demo copy.docx
+  Found matches: ['4mn']
+
+File: 5kg.docx
+  Found matches: ['5kg']
+```
 
 ## Troubleshooting
-docx module not found, try and following and run again:
+For `docx module not found` error, try and following and run again:
 ```
 pip3 install python-docx
 ```

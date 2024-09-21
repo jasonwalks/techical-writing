@@ -1,10 +1,10 @@
-# What is 12msCheck.py
+# What is 12msChecker.py
 A python program that checks for reg pattern `\d+[a-zA-Z]` in all .docx files in the folder `12mscheck` inside the Downloads folder.
 
 # Why is this helpful
 - "12ms" with no space between is correct in coding but wrong in English writing. <br>
 - These mistakes are often created through sheer force of habit. <br>
-- `12msCheck.py` identifies such error in .docx files. <br>
+- `12msChecker.py` identifies such error in .docx files. <br>
 
 # Preparations
 ## Install Python (version 3.x)
@@ -27,10 +27,10 @@ pip install python-docx
 1. Create a folder named `12mscheck` under Downloads.
 2. Put all the .docx files that need to be checked for "12ms" type of erros. 
 ## Run 12mscheck.py from the command line. 
-1. Put `12msCheck.py` in the `12mscheck` folder.
+1. Put `12msChecker.py` in the `12mscheck` folder.
 2. Open a terminal or command prompt and navigate to `12mscheck`.
-3. Run `12msCheck.py`: <br>
-`python3 12msCheck.py`
+3. Run `12msChecker.py`: <br>
+`python3 12msChecker.py`
 
 ## Troubleshooting
 docx module not found, try and following and run again:
